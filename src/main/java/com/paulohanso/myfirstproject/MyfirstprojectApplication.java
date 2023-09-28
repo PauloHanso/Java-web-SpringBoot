@@ -38,6 +38,8 @@ public class MyfirstprojectApplication implements CommandLineRunner {
 		Product p5 = new Product("Diario de um banana", 27.00,cat2);
 		Product p6 = new Product("Microondas Consul 2.0", 499.97, cat1);
 		Product p7 = new Product("Nazismos, como ele pode acontecer", 21.00, cat2);
+		Product p8 = new Product("MONITOR GAMER AOC SPEED 23,8", 689.90, cat1);
+		Product p9 = new Product("O AntiCristo - Nietsche", 14.99, cat2);
 		
 		
 
@@ -53,8 +55,8 @@ public class MyfirstprojectApplication implements CommandLineRunner {
 		productRepository.save(p5);
 		productRepository.save(p6);
 		productRepository.save(p7);
-		
-		
+		productRepository.save(p8);
+		productRepository.save(p9);
 		
 	}
 }
