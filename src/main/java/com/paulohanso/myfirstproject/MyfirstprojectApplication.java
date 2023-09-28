@@ -34,12 +34,23 @@ public class MyfirstprojectApplication implements CommandLineRunner {
 		Product p1 = new Product("TV", 2200.00, cat1);
 		Product p2 = new Product("DarkSouls", 120.00, cat2);
 		Product p3 = new Product("PS5", 2800.00, cat1);
-		Product p4 = new Product("O menino do pijama listrado", 100.00, cat2);
-		Product p5 = new Product("Diario de um banana", 27.00,cat2);
-		Product p6 = new Product("Microondas Consul 2.0", 499.97, cat1);
-		Product p7 = new Product("Nazismos, como ele pode acontecer", 21.00, cat2);
+		Product p4 = new Product("O MENINO DO PIJAMA LISTRADO", 100.00, cat2);
+		Product p5 = new Product("DIÁRIO DE UM BANANA", 27.00,cat2);
+		Product p6 = new Product("MICROONDAS CONSUL 2.0", 499.97, cat1);
+		Product p7 = new Product("NAZISMOS, COMO ELE PODE ACONTECER", 21.00, cat2);
 		Product p8 = new Product("MONITOR GAMER AOC SPEED 23,8", 689.90, cat1);
-		Product p9 = new Product("O AntiCristo - Nietsche", 14.99, cat2);
+		Product p9 = new Product("O ANTICRISTO, DE NIETZSCHE", 14.99, cat2);
+		Product p10 = new Product("APPLE IPHONE 13(128 GB) - ROSA", 4.299, cat1);
+		Product p11 = new Product("QCY FONE DE OUVIDO SEM FIO", 109.65, cat1);
+		Product p12 = new Product("SMARTPHONE FREEYOND 8GB + 50MP ULTRA ANGULAR", 827.08, cat1);
+		Product p13 = new Product("TICWTATCH PRO 5 SMARTWATCH", 1549.00, cat1);
+		Product p14 = new Product("PC GAMER Ryzen 5 4600G, 1TB, Fonte 500W", 2099.90, cat1);
+		Product p15 = new Product("O PROFESSOR ARROGANTE", 2.70, cat2);
+		Product p16 = new Product("DOMINADA PELO REIO DO CARTEL", 3.99, cat2);
+		Product p17 = new Product("UMA ESPOSA AZARADA E GRÁVIDA PARA O CEO", 1.99, cat2);
+		Product p18 = new Product("ALÉM DO BEM E DO MAL", 25.65, cat2);
+		Product p19 = new Product("A GENEALIDADE DA MORAL", 5.60, cat2);
+
 		
 		
 
@@ -57,6 +68,18 @@ public class MyfirstprojectApplication implements CommandLineRunner {
 		productRepository.save(p7);
 		productRepository.save(p8);
 		productRepository.save(p9);
+		productRepository.save(p10);
+		productRepository.save(p11);
+		productRepository.save(p12);
+		productRepository.save(p13);
+		productRepository.save(p14);
+		productRepository.save(p15);
+		productRepository.save(p16);
+		productRepository.save(p17);
+		productRepository.save(p18);
+		productRepository.save(p19);
+
+
 		
 	}
 }
