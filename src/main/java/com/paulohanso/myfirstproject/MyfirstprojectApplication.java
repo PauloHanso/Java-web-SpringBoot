@@ -27,7 +27,7 @@ public class MyfirstprojectApplication implements CommandLineRunner {
 	}
 
 	@Override
-	public void run(String... args) throws Exception {
+	public void run(String... args) {
 		Category cat1 = new Category("Electronics");
 		Category cat2 = new Category("Books");
 
