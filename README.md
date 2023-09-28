@@ -27,4 +27,4 @@ Execute o aplicativo e comece a criar, ler, atualizar e excluir registros!
 🌐 Contribuição:
 Aceitamos contribuições e feedback! Sinta-se à vontade para criar problemas ou solicitações de pull.
 
-✨ Desenvolvido com Amor por (Seu Nome) 💖
+✨ Desenvolvido com Amor por Paulo Humberto 💖
